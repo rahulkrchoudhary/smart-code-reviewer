@@ -1,0 +1,17 @@
+# Theme aligned to the in-app design system (refined Careem green + ink).
+[theme]
+primaryColor = "#0E9E6B"
+backgroundColor = "#FBFCFD"
+secondaryBackgroundColor = "#F6F8F9"
+textColor = "#10151C"
+font = "sans serif"
+
+[client]
+# Hide the default "Deploy" button and hamburger for a clean, custom chrome.
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+headless = true
