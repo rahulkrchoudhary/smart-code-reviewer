@@ -1,8 +1,16 @@
 # Smart Code Reviewer
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Open%20App-0E9E6B?logo=streamlit&logoColor=white)](https://rahulkrchoudhary-smart-code-reviewer-app-oqz6yu.streamlit.app/)
+[![Source](https://img.shields.io/badge/Source-GitHub-181717?logo=github&logoColor=white)](https://github.com/rahulkrchoudhary/smart-code-reviewer)
+[![Python](https://img.shields.io/badge/Python-3.10--3.12-3776AB?logo=python&logoColor=white)](#)
+[![Tests](https://img.shields.io/badge/tests-12%20passing-0E9E6B)](#)
+
 **An AI assistant that reviews code for readability, structure, and maintainability — and gates it — before a human ever opens the pull request.**
 
 Built for the Careem challenge by **Rahul**.
+
+- **Live demo:** https://rahulkrchoudhary-smart-code-reviewer-app-oqz6yu.streamlit.app/
+- **Source code:** https://github.com/rahulkrchoudhary/smart-code-reviewer
 
 Paste a snippet, upload a file, or point it at an entire repository. You get a graded scorecard, a pass/fail Quality Gate, a radar chart across the three quality dimensions, line-level findings with concrete fixes, an annotated source view, and exportable reports. It runs **fully offline** on a built-in static-analysis engine, and becomes sharper when an Anthropic API key is supplied (an optional Claude-powered deep review).
 
